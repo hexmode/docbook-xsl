@@ -72,6 +72,7 @@
 <xsl:include href="html-rtf.xsl"/>
 <xsl:include href="annotations.xsl"/>
 <xsl:include href="../common/stripns.xsl"/>
+<xsl:include href="publishers.xsl"/>
 
 <xsl:param name="stylesheet.result.type" select="'html'"/>
 <xsl:param name="htmlhelp.output" select="0"/>
