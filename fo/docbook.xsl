@@ -77,6 +77,7 @@
 <xsl:include href="ebnf.xsl"/>
 <xsl:include href="../html/chunker.xsl"/>
 <xsl:include href="annotations.xsl"/>
+<xsl:include href="publishers.xsl"/>
 <xsl:include href="../common/stripns.xsl"/>
 
 <xsl:include href="fop.xsl"/>
