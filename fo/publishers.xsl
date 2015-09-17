@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:d="http://docbook.org/ns/docbook"
   xmlns:fo="http://www.w3.org/1999/XSL/Format"
-  xmlns:db="http://docbook.org/ns/docbook"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  exclude-result-prefixes="db d dc"
+  exclude-result-prefixes="dc"
   version='1.0'>
   
 <xsl:template match="drama/title"/>
