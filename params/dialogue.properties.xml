@@ -15,7 +15,7 @@
 
 <refsynopsisdiv>
 <src:fragment xml:id="dialogue.properties.frag">
-<xsl:attribute-set name="drama.properties" use-attribute-sets="publishers.properties"/>
+<xsl:attribute-set name="dialogue.properties" use-attribute-sets="publishers.properties"/>
 </src:fragment>
 </refsynopsisdiv>
 
