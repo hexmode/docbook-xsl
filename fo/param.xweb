@@ -544,10 +544,17 @@ profiling of your document. For more information about profiling, see
 &crop.mark.offset;
 &crop.mark.bleed;
 </reference>
-<!--
-<reference><title></title>
+<reference xml:id="publishers"><title>DocBook Publishers</title>
+&publishers.properties;
+&dialogue.properties;
+&drama.properties;
+&poetry.properties;
+&line.properties;
+&linegroup.properties;
+&speaker.properties;
+&stagedir.properties;
+&inlinestagedir.properties;
 </reference>
--->
 <appendix xml:id="stylesheet"><title>The Stylesheet</title>
 
 <para>The <filename>param.xsl</filename> stylesheet is just a wrapper
@@ -938,6 +945,15 @@ around all these parameters.</para>
 <src:fragref linkend="xsl1.1.bookmarks.frag"/>
 <src:fragref linkend="show.bookmarks.frag"/>
 <src:fragref linkend="autolink.index.see.frag"/>
+<src:fragref linkend="publishers.properties.frag"/>
+<src:fragref linkend="drama.properties.frag"/>
+<src:fragref linkend="poetry.properties.frag"/>
+<src:fragref linkend="stagedir.properties.frag"/>
+<src:fragref linkend="linegroup.properties.frag"/>
+<src:fragref linkend="speaker.properties.frag"/>
+<src:fragref linkend="line.properties.frag"/>
+<src:fragref linkend="inlinestagedir.properties.frag"/>
+<src:fragref linkend="dialogue.properties.frag"/>
 
 </xsl:stylesheet>
 </src:fragment>
