@@ -594,6 +594,7 @@
 
 <xsl:template match="varlistentry/term">
   <fo:inline>
+    <xsl:call-template name="anchor"/>
     <xsl:call-template name="simple.xlink">
       <xsl:with-param name="content">
         <xsl:apply-templates/>
