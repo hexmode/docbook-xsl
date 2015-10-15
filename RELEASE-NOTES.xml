@@ -32,10 +32,10 @@ An online <link
   >hyperlinked change history</link> (warning: big file) of all
 changes made over the entire history of the codebase.</para>
 <para condition="dot-zero">As with all DocBook Project <link
-    linkend="dot0">dot-zero</link> releases, this is an
-  experimental release. It will be followed shortly by a stable
+    linkend="dot0">dot-zero</link> releases, this is a
+  candidate release for testing by the DocBook community. It will be followed shortly by a stable
   release.</para>
-<para condition="dot-one-plus">As with all DocBook Project “dot
+<!-- <para condition="dot-one-plus">As with all DocBook Project “dot
   one plus” releases, this release aspires to be stable (in
   contrast to <link linkend="dot0">dot-zero</link> releases, which
   are experimental).</para>
@@ -49,7 +49,7 @@ descriptions both of bug fixes and of feature changes. The
 remaining sections are manually edited changelog subsets that
 exclude bug-fix descriptions – that is, trimmed down to just those
 those descriptions that document enhancements and changes to the
-public APIs (user-configurable parameters).</para>
+public APIs (user-configurable parameters).</para>-->
 </abstract>
 </info>
 
